@@ -21,15 +21,17 @@ Example like our model would start just after the customer comes to desk
 
 <img src="https://i.imgur.com/gCf4NzK.jpg" border=0>
 
-after that it our **video classifier models** looks for 2 major action in  proper sequence
+after that it our **video classifier models** looks for 2 major action in and they should be in proper sequence
 
 ```
                    Boolean Flag 1                                           Boolean Flag 2                
                        |     |                                                 |     |                        
-          | Identify the 1st Registration |                      | Identify the 2nd Registration |                        
+       | Identify the 1st Registration Activity|     >>        | Identify the 2nd Registration Activity|                                            |     |                                                 |     |
                        |     |                                                 |     |                        
 
 ```
+
+and if Model is not able to identify the any of the activity in proper sequence that would be consider as Fraud
 
 To track down the whole process we have three activity classifier
 

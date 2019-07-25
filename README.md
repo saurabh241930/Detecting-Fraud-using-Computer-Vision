@@ -19,7 +19,7 @@ We decided to do this by flaging the whole the activity into child activity
 
 ## 2 step - process
 
-### `1st step` :
+### `1st step` (Binary Classification Model) :
 
 Detect if Customer is present on the reception using VGG-16 based CNN model classifier that we trained on our images
 
@@ -27,7 +27,7 @@ Example : like our model would start just after the customer comes to desk
 
 <img src="https://i.imgur.com/ihbQLkl.png" border=0>
 
-### 2nd step (if 1st is true) :
+### 2nd step (if 1st is true) (Video Classification Model) :
 
 Detect video activity using CNN-LSTM model
 

@@ -26,10 +26,8 @@ after that it our **video classifier models** looks for 2 major action in and th
 ```
                    Boolean Flag 1                                           Boolean Flag 2                
                        |     |                                                 |     |                        
-       | Identify the 1st Registration Activity|     >>        | Identify the 2nd Registration Activity|                                            |     |                                                 |     |
-                                                                                          
-
-```
+       | Identify the 1st Registration Activity|     >>        | Identify the 2nd Registration Activity|                     
+                                                                                          ```
 
 and if Model is not able to identify the any of the activity in proper sequence that would be consider as Fraud
 

@@ -17,6 +17,16 @@ So maybe you're wondering this can be monitored manually why we need to use Mach
 
 We decided to do this by flaging the whole the activity into child activity
 
+## 2 step - process
+
+### 1st step :
+
+Detect if Customer is present on the reception
+
+### 2nd step (if 1st is true) :
+
+Detect video activity 
+
 Example like our model would start just after the customer comes to desk
 
 <img src="https://i.imgur.com/gCf4NzK.jpg" border=0>

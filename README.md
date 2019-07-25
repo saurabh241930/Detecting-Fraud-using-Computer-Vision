@@ -13,6 +13,15 @@ This repository contains the overview of all the approaches that we are applying
 
 So maybe you're wondering this can be monitored manually why we need to use Machine Learning here,because there over **`50k`** locations it is impossible to do manually
 
+## Pipeline : 
 
+We decided to do this by flaging the whole the activity into child activity
+
+Example like our model would start just after the customer comes to desk
+
+<img src="https://i.imgur.com/gCf4NzK.jpg" border=0>
+
+
+To track down the whole process we have three activity classifier
 
 

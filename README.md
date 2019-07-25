@@ -31,7 +31,7 @@ Example : like our model would start just after the customer comes to desk
 
 Detect video activity using CNN-LSTM model
 
-Lets breakown what is role of **CNN & LSTM* here
+Lets breakown what is role of **CNN & LSTM** here
 
 `CNN` : We are using here cnn model only just for extracting image cnn features data
 

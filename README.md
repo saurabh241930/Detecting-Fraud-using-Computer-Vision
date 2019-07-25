@@ -24,9 +24,11 @@ Example like our model would start just after the customer comes to desk
 after that it looks for 3 major action
 
 ```
-|     |
-|     |
-|     |
+Boolean Flag 1      Boolean Flag 2
+|     |             |     |
+|     |             |     |
+|     |             |     |
+
 ```
 
 To track down the whole process we have three activity classifier

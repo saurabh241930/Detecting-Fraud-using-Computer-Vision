@@ -19,7 +19,7 @@ We decided to do this by flaging the whole the activity into child activity
 
 ## 2 step - process
 
-### 1st step :
+### `1st step` :
 
 Detect if Customer is present on the reception using VGG-16 based CNN model classifier that we trained on our images
 

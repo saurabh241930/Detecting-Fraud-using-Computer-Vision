@@ -21,17 +21,19 @@ We decided to do this by flaging the whole the activity into child activity
 
 ### 1st step :
 
-Detect if Customer is present on the reception
+Detect if Customer is present on the reception using VGG-16 based CNN model classifier that we trained on our images
 
-### 2nd step (if 1st is true) :
-
-Detect video activity 
-
-Example like our model would start just after the customer comes to desk
+Example : like our model would start just after the customer comes to desk
 
 <img src="https://i.imgur.com/gCf4NzK.jpg" border=0>
 
-after that it our **video classifier models** looks for 2 major action in and they should be in proper sequence
+### 2nd step (if 1st is true) :
+
+Detect video activity using CNN-LSTM model
+
+
+
+Example : our **video classification models** looks for 2 major action in and they should be in proper sequence
 
 ```
                    Boolean Flag 1                                           Boolean Flag 2                

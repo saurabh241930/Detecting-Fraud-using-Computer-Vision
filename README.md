@@ -21,7 +21,7 @@ We decided to do this by flaging the whole the activity into child activity
 
 ### `1st step` (Binary Classification Model) :
 
-Detect if Customer is present on the reception using VGG-16 based CNN model classifier that we trained on our images
+Detect if Customer is present on the reception using **VGG-16** based CNN model classifier that we trained on our images
 
 Example : like our model would start just after the customer comes to desk
 
@@ -31,7 +31,11 @@ Example : like our model would start just after the customer comes to desk
 
 Detect video activity using CNN-LSTM model
 
+Lets breakown what is role of **CNN & LSTM* here
 
+`CNN` : We are using here cnn model only just for extracting image cnn features data
+
+ `LSTM` : After extracting those features from that sequence of video frames we will pass that in lstm network
 
 Example : our **video classification models** looks for 2 major action in and they should be in proper sequence
 

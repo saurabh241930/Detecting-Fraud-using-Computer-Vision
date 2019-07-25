@@ -11,7 +11,8 @@ This repository contains the overview of all the approaches that we are applying
 * Create the record in Physical register
 * Create the record in Online System
 
-So maybe you're wondering this can be monitored manually why we need to use Machine Learning here,because there over 50k locations it is impossible to do manually
+So maybe you're wondering this can be monitored manually why we need to use Machine Learning here,because there over **`50k`** locations it is impossible to do manually
+
 
 
 

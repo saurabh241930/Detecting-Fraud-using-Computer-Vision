@@ -39,6 +39,9 @@ Lets breakown what is role of **CNN & LSTM** here
 
 Example : our **video classification models** looks for 2 major action in and they should be in proper sequence
 
+<img src="https://i.imgur.com/QwjsZPv.png" border=0>
+
+
 ```
                    Boolean Flag 1                                           Boolean Flag 2                
                        |     |                                                 |     |                        

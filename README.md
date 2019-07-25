@@ -25,7 +25,7 @@ Detect if Customer is present on the reception using VGG-16 based CNN model clas
 
 Example : like our model would start just after the customer comes to desk
 
-<img src="https://i.imgur.com/gCf4NzK.jpg" border=0>
+<img src="https://i.imgur.com/6a5jSST.jpg" border=0>
 
 ### 2nd step (if 1st is true) :
 

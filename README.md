@@ -27,7 +27,7 @@ Example : like our model would start just after the customer comes to desk
 
 <img src="https://i.imgur.com/ihbQLkl.png" border=0>
 
-### 2nd step (if 1st is true) (Video Classification Model) :
+### `2nd step (if 1st is true)` (Video Classification Model) :
 
 Detect video activity using CNN-LSTM model
 

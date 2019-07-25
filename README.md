@@ -21,13 +21,13 @@ Example like our model would start just after the customer comes to desk
 
 <img src="https://i.imgur.com/gCf4NzK.jpg" border=0>
 
-after that it looks for 3 major action
+after that it our **video classifier models** looks for 2 major action in  proper sequence
 
 ```
-Boolean Flag 1                       Boolean Flag 2                Boolean Flag 3
-   |     |                              |     |                        |     |
-   |     |                              |     |                        |     |
-   |     |                              |     |                        |     |
+                   Boolean Flag 1                                           Boolean Flag 2                
+                       |     |                                                 |     |                        
+          | Identify the 1st Registration |                      | Identify the 2nd Registration |                        
+                       |     |                                                 |     |                        
 
 ```
 

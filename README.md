@@ -21,6 +21,13 @@ Example like our model would start just after the customer comes to desk
 
 <img src="https://i.imgur.com/gCf4NzK.jpg" border=0>
 
+after that it looks for 3 major action
+
+```
+|     |
+|     |
+|     |
+```
 
 To track down the whole process we have three activity classifier
 

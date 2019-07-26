@@ -15,7 +15,11 @@ So maybe you're wondering this can be monitored manually why we need to use Mach
 
 ## Pipeline : 
 
-We decided to do this by flaging the whole the activity into child activity
+We broke down the complete pipeline into 3 step process
+
+* ![Initiating the model afer customer arrives]()
+* ![Identify Video actions]()
+* ![Create the timestamps of results]()
 
 ## 2 step - process
 

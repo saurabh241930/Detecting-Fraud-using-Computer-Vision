@@ -17,13 +17,13 @@ So maybe you're wondering this can be monitored manually why we need to use Mach
 
 We broke down the complete pipeline into 3 step process
 
-* [Initiating the model afer customer arrives]()
+* [Initiating the model after customer arrives]()
 * [Identify Video actions]()
 * [Create the timestamps of results]()
 
 ## 2 step - process
 
-### `1st step` (Binary Classification Model) :
+### `Initiating the model after customer arrives` (Binary Classification Model) :
 
 Detect if Customer is present on the reception using **VGG-16** based CNN model classifier that we trained on our images
 
@@ -31,7 +31,7 @@ Example : like our model would start just after the customer comes to desk
 
 <img src="https://i.imgur.com/ihbQLkl.png" border=0>
 
-### `2nd step (if 1st is true)` (Video Classification Model) :
+### `Identify Video actions (if 1st step is true)` (Video Classification Model) :
 
 Detect video activity using CNN-LSTM model
 

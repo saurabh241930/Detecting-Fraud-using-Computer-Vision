@@ -74,7 +74,9 @@ Example : our **video classification models** looks for 2 major action in and th
 Dummy Code for this model (**Not the real code**):
 
 
-INCEPTION_V3-CNN-EXTRACTOR
+**`INCEPTION_V3-CNN-EXTRACTOR`**
+
+
 ```python
 from keras.preprocessing import image
 from keras.applications.inception_v3 import InceptionV3, preprocess_input
@@ -94,5 +96,35 @@ features = model.predict(x)
 
 
 ```
+
+**`LSTM MODEL`**
+
+```python
+
+from keras.layers import Dense, Flatten, Dropout, ZeroPadding3D
+from keras.layers.recurrent import LSTM
+
+
+ model = Sequential()
+ model.add(LSTM(2048, return_sequences=False,input_shape=(N,2048),dropout=0.5))
+ model.add(Dense(512, activation='relu'))
+ model.add(Dropout(0.5))
+ model.add(Dense(video_classes, activation='softmax'))
+```
+### `Creating Timestamps of results of detections` :
+
+Now from here pipeline was straight foward  
+
+we created timestamps of 3 events
+
+`1st` when customer spotted
+`2nd` & `3rd` when any of Registration activity detected in any order
+
+Based on this we generated **CSV** data
+
+<img src="https://i.imgur.com/9tsEAnc.png" border=0>
+
+Using that we can estimate time difference between events can which was a indicator threshold for fraud evaluation
+
 
 

@@ -122,7 +122,7 @@ we created timestamps of 3 events
 
 Example: **Tc,Tr1 & Tr2** were the timestamps of `customer spotted`,`Registration 1` &` Registration 2` respectively
 
-so if time difference between **`Tc & Tr1 & Tr2`** more than usual time limit or any of the `registration event` is missing that instance would be supervised manually and check if its **Fraud** or something else
+so if time difference between **`Tc & Tr1 & Tr2`** goes more than usual time limit or any of the `registration event` is missing that instance would be supervised manually and check if its **Fraud** or something else
 
 Using that we can estimate time difference between events can which was a indicator threshold for fraud evaluation
 

@@ -17,9 +17,9 @@ So maybe you're wondering this can be monitored manually why we need to use Mach
 
 We broke down the complete pipeline into 3 step process
 
-* ![Initiating the model afer customer arrives]()
-* ![Identify Video actions]()
-* ![Create the timestamps of results]()
+* [Initiating the model afer customer arrives]()
+* [Identify Video actions]()
+* [Create the timestamps of results]()
 
 ## 2 step - process
 

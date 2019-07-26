@@ -120,9 +120,7 @@ we created timestamps of 3 events
 `1st` when customer spotted
 `2nd` & `3rd` when any of Registration activity detected in any order
 
-Based on this we generated **CSV** data
-
-<img src="https://i.imgur.com/9tsEAnc.png" border=0>
+Example: **Tc,Tr1 & Tr2** are the timestamps of customer spotted,Registration 1 & Registration 2 respectively
 
 Using that we can estimate time difference between events can which was a indicator threshold for fraud evaluation
 

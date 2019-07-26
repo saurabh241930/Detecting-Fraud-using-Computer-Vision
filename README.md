@@ -1,7 +1,7 @@
 # Detecting-Fraud-using-Computer-Vision
 This repository contains the overview of all the approaches that we are applying & applied in order to detect Fraud
 
-### Objective : To Detect Frauds during check-ins & chek-outs of hotel 
+### Objective : To Detect Frauds during check-ins & chek-outs at hotel reception
 
 **`Brief overview of pipeline`**  : This project is a part of our one the biggest client and also one of the biggest hotel booking service ,Fraud here actually happens  during customer's check-ins or check-out for its room ,If that time the hotel receptionaist at desk is not registering the record of customer presence in their registory system(online & ofline)the hotel owner is commiting Fraud,because by doing this the our client company is not getting its profit cut
 
@@ -67,7 +67,7 @@ Lets breakown what is role of **CNN & LSTM** here
 
 Example : our **video classification models** looks for 2 major action in and they should be in proper sequence
 
-<img src="https://i.imgur.com/VOCMPEO.png" border=0>
+<img src="https://i.imgur.com/RqKxbf0.png" border=0>
 
 
 ```

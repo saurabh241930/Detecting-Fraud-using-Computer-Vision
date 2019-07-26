@@ -53,8 +53,6 @@ OUTPUT :
 
 customer present(90%)
 
-
-# the model so far outputs 3D feature maps (height, width, features)
 ```
 
 ### `Identify Video actions (if 1st step is true)` (Video Classification Model) :

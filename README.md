@@ -70,6 +70,42 @@ Example : our **video classification models** looks for 2 major action in and th
 <img src="https://i.imgur.com/RqKxbf0.png" border=0>
 
 
+
+Dummy Code for this model (**Not the real code**):
+
+
+INCEPTION_V3-CNN-EXTRACTOR
+```python
+from keras.preprocessing import image
+from keras.applications.inception_v3 import InceptionV3, preprocess_input
+from keras.models import Model, load_model
+from keras.layers import Input
+
+
+model = InceptionV3(weights='imagenet', include_top=False)
+
+img_path = 'video_frames.jpg'
+img = image.load_img(img_path, target_size=(224, 224))
+x = image.img_to_array(img)
+x = np.expand_dims(x, axis=0)
+x = preprocess_input(x)
+
+features = model.predict(x)
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
 ```
                    Boolean Flag 1                                           Boolean Flag 2                
                        |     |                                                 |     |                        

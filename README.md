@@ -17,9 +17,9 @@ So maybe you're wondering this can be monitored manually why we need to use Mach
 
 We broke down the complete pipeline into 3 step process
 
-* [Initiating the model after customer arrives]()
-* [Identify Video actions]()
-* [Create the timestamps of results]()
+* [Initiating the model after customer arrives](https://github.com/saurabh241930/Detecting-Fraud-using-Computer-Vision/blob/master/README.md#initiating-the-model-after-customer-arrives-binary-classification-model-)
+* [Identify Video actions](https://github.com/saurabh241930/Detecting-Fraud-using-Computer-Vision/blob/master/README.md#identify-video-actions-if-1st-step-is-true-video-classification-model-)
+* [Create the timestamps of results](https://github.com/saurabh241930/Detecting-Fraud-using-Computer-Vision/blob/master/README.md#creating-timestamps-of-results-of-detections-)
 
 
 ### `Initiating the model after customer arrives` (Binary Classification Model) :

@@ -24,7 +24,7 @@ We broke down the complete pipeline into 3 step process
 
 ### `Initiating the model after customer arrives` (Binary Classification Model) :
 
-Detect if Customer is present on the reception using **VGG-16** based CNN model classifier that we trained on our images
+Detecting if Customer is present on the reception using **VGG-16** based CNN model classifier that we trained on our images
 
 Example : like our model would start just after the customer comes to desk
 
